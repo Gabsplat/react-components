@@ -1,0 +1,13 @@
+.cardsContainer {
+  display: flex;
+  gap: 10px;
+  width: 100%;
+}
+
+.cardsContainer div {
+  height: 100px;
+  width: 100px;
+  background: white;
+  color: black;
+  border-radius: 10px;
+}
