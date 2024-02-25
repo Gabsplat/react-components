@@ -1,5 +1,5 @@
 import React from "react";
-import Accordion from "./Accordion";
+import Accordion from "../../components/Accordion/Accordion";
 import { MdArrowBack } from "react-icons/md";
 import { Link } from "react-router-dom";
 
@@ -40,15 +40,6 @@ const accordionData2 = [
 ];
 
 export default function AccordionPage() {
-  // const [accordionItems, setAccordionItems] = useState(accordionItemsTest)
-
-  //   const addItem = () => {
-  //     setAccordionItems([
-  //       ...accordionItems,
-  //       { title: "Titulo 3", paragraph: "Esto es un parrafo" },
-  //     ]);
-  //   };
-
   return (
     <main>
       <h1 className="font-semibold">
