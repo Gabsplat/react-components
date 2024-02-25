@@ -1,4 +1,4 @@
-import SearchList from "../../components/SearchList/SearchList";
+import SearchList from "./SearchList";
 
 export default {
   title: "Components/Search List",

@@ -55,7 +55,7 @@ export default function Accordion({
   );
 }
 
-const AccordionItem = ({ title, paragraph, isOpen, setOpen, icon: Icon }) => {
+const AccordionItem = ({ title, paragraph, isOpen, setOpen }) => {
   return (
     <div className="border-1 border-black">
       <button

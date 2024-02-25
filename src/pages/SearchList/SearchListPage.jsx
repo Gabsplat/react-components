@@ -2,9 +2,9 @@ import SearchList from "../../components/SearchList/SearchList";
 
 export default function SearchListPage() {
   return (
-    <div>
-      SearchListPage
+    <main>
+      <h1>SearchList Page</h1>
       <SearchList />
-    </div>
+    </main>
   );
 }

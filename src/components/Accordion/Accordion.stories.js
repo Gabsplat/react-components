@@ -1,4 +1,4 @@
-import Accordion from "../../components/Accordion/Accordion";
+import Accordion from "./Accordion";
 
 export default {
   title: "Components/Accordion",
@@ -32,6 +32,7 @@ const sampleData = [
 export const Basic = {
   args: {
     data: sampleData,
+    allowMultipleOpen: false,
     //👇 The args you need here will depend on your component
   },
 };
