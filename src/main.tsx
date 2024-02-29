@@ -22,7 +22,7 @@ const router = createBrowserRouter([
     element: <AccordionPage />,
   },
   {
-    path: "/searchList",
+    path: "/basicsearchlist",
     element: <BasicSearchListPage />,
   },
 ]);
