@@ -1,4 +1,5 @@
 import Accordion from "./Accordion";
+import { Meta } from "@storybook/react";
 
 export default {
   title: "Components/Accordion",
@@ -31,25 +32,22 @@ const sampleData = [
 
 export const Basic = {
   args: {
-    data: sampleData,
+    accordionData: sampleData,
     allowMultipleOpen: false,
-    //👇 The args you need here will depend on your component
   },
-};
+} satisfies Meta<typeof Accordion>;
 
 export const MultipleOpen = {
   args: {
-    data: sampleData,
+    accordionData: sampleData,
     allowMultipleOpen: true,
-    //👇 The args you need here will depend on your component
   },
-};
+} satisfies Meta<typeof Accordion>;
 
 export const DefaultOpenIndex = {
   args: {
-    data: sampleData,
+    accordionData: sampleData,
     allowMultipleOpen: true,
     defaultOpenIndex: 1,
-    //👇 The args you need here will depend on your component
   },
-};
+} satisfies Meta<typeof Accordion>;

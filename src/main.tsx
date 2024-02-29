@@ -6,7 +6,7 @@ import "./index.css";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import ComplexForm from "./pages/ComplexForm/ComplexForm.jsx";
 import AccordionPage from "./pages/Accordion/AccordionPage.jsx";
-import SearchListPage from "./pages/SearchList/SearchListPage.jsx";
+import BasicSearchListPage from "./pages/BasicSearchList/BasicSearchListPage.jsx";
 
 const router = createBrowserRouter([
   {
@@ -23,7 +23,7 @@ const router = createBrowserRouter([
   },
   {
     path: "/searchList",
-    element: <SearchListPage />,
+    element: <BasicSearchListPage />,
   },
 ]);
 

@@ -1,24 +1,6 @@
-import { useEffect, useState } from "react";
+import { useState } from "react";
 
 import { IoIosArrowDown, IoIosArrowUp } from "react-icons/io";
-
-const accordionData2 = [
-  {
-    title: "Machine Learning Basics",
-    paragraph:
-      "Machine learning is a field of artificial intelligence that focuses on creating algorithms and models that enable computers to learn from data. It is widely used in predictive analytics and pattern recognition.",
-  },
-  {
-    title: "Data Science Tools",
-    paragraph:
-      "Data scientists use various tools such as Python, R, and Jupyter Notebooks for data analysis, visualization, and machine learning. These tools help in extracting meaningful insights from large datasets.",
-  },
-  {
-    title: "Blockchain Technology",
-    paragraph:
-      "Blockchain is a decentralized and distributed ledger technology that underlies cryptocurrencies like Bitcoin. It provides a secure and transparent way of recording transactions and data.",
-  },
-];
 
 type AccordionData = {
   title: string;
